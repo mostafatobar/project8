@@ -1,0 +1,548 @@
+body{
+    margin: 0;
+}
+*{
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+header{
+    display: flex;
+   justify-content: space-between;
+   background-color: black;
+   height: 40px;
+   width: 100%;
+}
+
+section{
+    display: flex;
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+    color: aliceblue;
+  
+}
+
+.main{
+    /* margin: 10px;  */
+    text-decoration: none;
+    color: white;
+    background-color: rgb(67, 149, 149);
+    padding: 10px ;
+    text-align: center;
+    width: 100px;
+    height: 40px;
+   
+}
+
+
+.main a{
+    text-decoration: none;
+
+
+  
+}
+
+.main:hover{
+    background-color: rgb(113, 98, 98);
+}
+
+
+
+.book2 a{
+    display:inline-block;
+    margin-top: 10px;
+    margin: 10px;
+    text-decoration: none;
+    color: white;
+   /* o backgrund-color: rgb(50, 41, 41); */
+     margin: 10px;
+
+}
+.book2 a:hover{
+    background-color: aqua;
+    padding: 15px;
+}
+
+.book4 a{
+    display: flex;
+    padding: 1px 10px;
+    margin-top: 5px;
+    color: aliceblue;
+
+
+}
+.book4 a:hover{
+    background-color:aqua ;
+    padding: 15px;
+}
+
+
+.book5 img{
+    width: 100%;
+
+}
+
+
+.book6{
+    /* display: flex; */
+    position: absolute;
+    margin: -50px 10px;
+    background-color: black;
+    height: 40px;
+    
+    
+ 
+
+}
+
+.book6 a{
+    color: white;
+    padding: 20px ;
+    /* height: 30px; */
+   text-decoration: none;
+   text-transform: uppercase;
+   font-size: 30px;
+
+}
+
+.book6:hover{
+    background-color: rgb(103, 122, 122);
+   
+}
+
+.book-1{
+    background-color: aqua;
+}
+
+.div1{
+    text-align: center;
+    margin: 2% auto;
+    
+
+   
+}
+.main2{
+    /* background-color: aquamarine; */
+}
+
+.div3{
+    margin: 2% auto;
+}
+
+.div3 h3{
+    font-size: 30px;
+    text-align: center;
+    color: black;
+
+}
+
+.div3 span{
+    font-size:20px ;
+    color: black;
+}
+
+.main3{
+  display: flex;
+  justify-content: space-around;
+}
+
+.div6 img{
+    border-radius: 50%;
+    width: 150px;
+}
+.div6 img:hover{
+    background-color: aliceblue;
+}
+.div7 img{
+    border-radius: 50%;
+    width: 150px;
+}
+.div7 img:hover{
+    background-color: aliceblue;
+}
+.div8 img{
+    border-radius: 50%;
+    width: 150px;
+
+}
+.div8 img:hover{
+    background-color: aliceblue;
+}
+.div9 img{
+    border-radius: 50%;
+    width: 150px;
+}
+
+.div9 img:hover{
+    background-color: rgb(24, 104, 174);
+}
+
+.book-h{
+    display: flex;
+    background-color: rgb(6, 23, 23);
+}
+.store-1{
+   padding: 50px 30px;
+   width: 450px;
+   line-height: 30px;
+   color: white;
+   margin-right: 100px;
+}
+
+.store-1 h2{
+    font-size: 35px;
+}
+.store-1 p{
+    font-size: 20px;
+}
+   
+.content{
+    display: flex;
+    display: inline-block;
+    flex-direction: row;
+    flex-wrap: wrap;
+    /* background-color: blue; */
+    margin: 70px 0;
+    margin-right: 30px;
+   
+}
+ 
+.card{
+    box-shadow: 0 5px 25px rgba( 1 1 1 /15);
+    background-color: aliceblue;
+   
+    
+}
+
+.img img{
+    width: 370px;
+    /* margin-right: 100px; */
+    /* margin: 20px; */
+    background-color: aliceblue;
+ 
+
+}
+
+.inf h3{
+    font-size: 30px;
+
+}
+
+.inf .div-1{
+    font-size: 20px;
+    padding: 15px ;
+}
+.inf .div-2{
+    font-size: 20px;
+    padding: 15px ;
+}
+.inf .div-3{
+    font-size: 20px;
+    padding: 15px ;
+}
+.inf .div-4{
+    font-size: 20px;
+    padding: 15px ;
+}
+.inf .div-5{
+    font-size: 20px;
+  
+    padding: 15px ;
+}
+
+
+
+.main-s{
+    margin: 7% auto;
+    text-align: center;
+}
+
+.main-s h2{
+    font-size: 30px;
+    margin: 30px;
+}
+
+.main-s p{
+    font-size: 20px;
+}
+
+.king{
+    display: flex;
+    display: inline-block;
+
+}
+
+.content-1{
+    display: flex;
+    display: inline-block;
+    /* margin: 20px 100px;   */
+    /* background-color: aquamarine;   */
+    margin: 10px 50px;
+
+}
+
+.card-1{
+    background-color:rgb(206, 209, 206);
+    width: 450px;
+    height: 600px;
+    box-shadow: 0 5px 25px rgba( 1 1 1 /15);
+
+  
+
+
+}
+.inf-1 h2{
+    background-color: black;
+    color: white;
+    text-align: center;
+    font-size: 30px;
+    padding: 35px 0;
+    height: 120px;
+}
+
+
+
+
+.inf-1 p{
+    text-align: center;
+    font-size: 20px;
+    color: rgba(0, 0, 0, 0.734);
+}
+
+.inf-1 span{
+    font-size: 25px;
+    color: rgb(0, 0, 0);
+}
+
+.do{
+    background-color: aliceblue;
+}
+.inf-1 a{
+    /* padding: 40px 160px; */
+    display: inline-block;
+    text-decoration: none;
+    font-size: 25px;
+    padding: 20px 30px;
+    margin: 10px 150px;
+    background-color: aqua;
+    
+}
+
+.inf-1 a:hover{
+    background-color: aliceblue;
+}
+
+.store-k{
+    display: flex;
+    background-color: gainsboro;
+    
+}
+
+.div-s{
+    font-size: 20px;
+   padding: 20px;
+   margin: 70px 10px;
+}
+
+.div-d{
+    font-size: 25px ;
+}
+
+
+.div-f {
+    font-size: 17px;
+    width: 200px;
+}
+
+.div-g{
+    display: flex;
+    margin: 10px 0;
+    color: aqua;
+}
+
+.div-g i{
+    padding: 14px 0;
+}
+
+.div-g p{
+    color: black;
+    padding: 0 10px;
+    font-size: 17px;
+}
+.div-j{
+    display: flex;
+    /* margin: 10px 0; */
+    color: aqua;
+}
+
+.div-j i{
+    padding: 14px 0;
+}
+
+.div-j p{
+    color: black;
+    padding: 0 10px;
+    font-size: 17px;
+}
+.div-h{
+    display: flex;
+
+    color: aqua;
+}
+
+.div-h i{
+    padding: 14px 0;
+}
+
+.div-h p{
+    color: black;
+    padding: 0 10px;
+    font-size: 17px;
+}
+
+
+.content-3{
+    margin: 80px 400px;
+    background-color: ghostwhite;
+    box-shadow: 0 5px 25px rgba( 1 1 1 /15);
+    /* width: 2000px; */
+    width: 100%;
+    height: 500px;
+
+}
+
+.card-3{
+    width: 1000px;
+    height: 400px;
+
+}
+.inf-3{
+    padding: 20px;
+
+}
+
+
+.div-n p{
+    font-size: 20px;
+}
+
+.div-n input{
+    width: 100%;
+    height: 40px;
+    border-radius: 4px ;
+    overflow: hidden;
+}
+
+
+
+.div-k p{
+    font-size: 20px;
+}
+
+.div-k input{
+    width: 100%;
+    height: 40px;
+    border-radius: 4px ;
+    overflow: hidden;
+}
+.div-l p{
+    font-size: 20px;
+}
+
+.div-l input{
+    width: 100%;
+    height: 40px;
+    border-radius: 4px ;
+    overflow: hidden;
+}
+
+.div-b{
+    display: flex;
+   justify-content: space-between;
+}
+
+
+.div-v {
+    display: flex;
+    font-size: 20px;
+    padding: 30px 10px;
+}
+
+
+.div-v input{
+    font-size: 25px;
+   
+}
+
+.div-m {
+    padding: 60px 0;
+    font-size: 25px;
+    /* background-color: black; */
+    
+}
+
+.div-m a{
+    text-decoration: none;
+    background-color: black;
+    padding: 15px;
+    color: white;
+}
+
+.div-m a:hover{
+    background-color: rgb(143, 147, 149);
+}
+
+.soon img{
+    width: 100%;
+    height: 1000px;
+    /* margin-bottom: -70px; */
+}
+
+
+footer{
+    background-color: black;
+    color: wheat;
+}
+
+
+.soon-1 h2{
+    display: inline-block;
+    text-align: center;
+    margin: 2% auto;
+    padding: 0 750px;
+    font-size: 25px;
+}
+
+
+.soon-2 {
+   padding: 20px 600px;
+   
+}
+.soon-2 i{
+    margin: 10px;
+    font-size: 30px;
+    background-color: aqua;
+    padding: 20px;
+}
+
+.soon-2 i:hover{
+    background-color: rgb(86, 101, 101);
+}
+
+.soon-3{
+    display: flex;
+    padding: 10px 700px;
+    font-size: 25px;
+}
+
+
+.soon-3 p{
+    margin-right: 20px;
+}
+
+.soon-3 a{
+    margin: 23px 0;
+    color: white;
+    text-decoration: none;
+}
